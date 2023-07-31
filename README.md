@@ -57,10 +57,10 @@ By leveraging the is.gd API, d0ppelganger can shorten URLs, thereby making them 
 
 Use this tool responsibly and ethically. d0ppelganger is intended for educational and awareness purposes only. I will not be  responsible for any misuse or malicious activities conducted using this tool. Always exercise caution and verify URLs before clicking on them.
 
-## 🚀 About Me
-I'm an enthusiast.
-I have a youtube [channel](https://youtube.com/@HoundSec)
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it according to the terms of the license.
+
+## 🚀 About Me
+I'm an enthusiast.
+I have a youtube [channel](https://youtube.com/@HoundSec)
