@@ -23,4 +23,4 @@ if __name__ == "__main__":
     keyword = input("Type a kewword (without whitespace or / ): ")
     target = Doppelgang(url,mask,keyword)
     target.shorten()
-    print(target.mask())
+    print("Output url:",target.mask())
