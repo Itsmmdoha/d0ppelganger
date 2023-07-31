@@ -11,6 +11,7 @@ class Doppelgang:
         res = get(f"https://is.gd/create.php?format=json&url={self.url}").text
         json = loads(res)
         self.shorturl = json["shorturl"]
+        return self.shorturl
 
     def mask(self):
         maskedURL = self.shorturl.replace("https://",f"https://{self.maskingDomain}-{self.keyword}@")
