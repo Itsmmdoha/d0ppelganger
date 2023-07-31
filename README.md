@@ -2,7 +2,6 @@
   <img src="https://github.com/Itsmmdoha/d0ppelganger/assets/70005698/68636dab-16dd-4bfe-980e-1658d2e835d3" alt="GIF">
 </p>
 
-# d0ppelganger
 d0ppelganger is a url masking tool that can make a fishy url look like it's from a well known domain.  The purpose of making this tool is not to promote phishing. Rather it's about learnig how it works and spoting a phishing url right away if it's using url masking.
 
 ## Usage/Examples
@@ -23,17 +22,15 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
-# How and why it works
+## How it Works
 ![Screenshot from 2023-07-31 16-15-05](https://github.com/Itsmmdoha/d0ppelganger/assets/70005698/aa5760d6-8f56-4918-82ff-a6a460b22589)
 
 The above diagram explaines the things this tool does to a url. 
 
-## How it Works
-
 URL masking is a technique used to make a link's destination appear different from its actual target. d0ppelganger utilizes the is.gd API to achieve this functionality. The "@ sign" is employed to manipulate the URL and trick the browser into ignoring the text before the "@" sign. 
 
-In the past, the "username:password@site.com" pattern was commonly used to embed login credentials directly into the URL. 
-Back in the day, if you typed "username:password@site.com" the browser would've translated it into a HTTP request like this:
+In the past, the `username:password@site.com` pattern was commonly used to embed login credentials directly into the URL. 
+Back in the day, if you typed `username:password@site.com` in the address bar, the browser would've translated it into a HTTP request like this:
 ```http
 GET / HTTP/1.1
 Host: site.com
