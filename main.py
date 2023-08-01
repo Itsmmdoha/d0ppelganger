@@ -1,4 +1,5 @@
 from requests import get
+from requests.utils import quote as urlEncode
 from json import loads
 
 class Doppelgang:
@@ -8,7 +9,8 @@ class Doppelgang:
         self.keyword = keyword
         self.shorturl = None
     def shorten(self):
-        res = get(f"https://is.gd/create.php?format=json&url={self.url}").text
+        encodedUrl = urlEncode(self.url)
+        res = get(f"https://is.gd/create.php?format=json&url={encodedUrl}").text
         json = loads(res)
         self.shorturl = json["shorturl"]
         return self.shorturl
