@@ -27,7 +27,7 @@ python3 main.py
 
 The above diagram explaines the things this tool does to a url. 
 
-URL masking is a technique used to make a link's destination appear different from its actual target. d0ppelganger utilizes the is.gd API to achieve this functionality. The "@ sign" is employed to manipulate the URL and trick the browser into ignoring the text before the "@" sign. 
+URL masking is a technique used to make a link's destination appear different from its actual target. d0ppelganger employs the character "@" to manipulate the appearance of a URL and trick the browser into ignoring the text before the character "@". 
 
 In the past, the `username:password@site.com` pattern was commonly used to embed login credentials directly into the URL. 
 Back in the day, if you typed `username:password@site.com` in the address bar, the browser would've translated it into a HTTP request like this:
@@ -48,7 +48,7 @@ Host: site.com
 
 ## This tool uses the is.gd API
 
-To know more about the api, refer to the [is.gd API Reference](https://is.gd/apishorteningreference.php).
+To know more about the api, refer to the [API Reference](https://is.gd/apishorteningreference.php).
 By leveraging the is.gd API, d0ppelganger can shorten URLs, thereby making them look more trustworthy. However, it's crucial to note that such behavior can be misused for malicious purposes like phishing. The intention behind d0ppelganger is to raise awareness about URL masking and help users recognize and avoid potential phishing attacks.
 
 
