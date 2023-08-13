@@ -5,6 +5,13 @@
 d0ppelganger is a url masking tool that can make a fishy url look like it's from a well known domain.  The purpose of making this tool is not to promote phishing. Rather it's about learnig how it works and spoting a phishing url right away if it's using url masking.
 
 ## Usage/Examples
+
+**Method 01:**
+The easiest way is to just download the linux binary from the [release](https://github.com/Itsmmdoha/d0ppelganger/releases/tag/v1.0.0) page. You can also click [here](https://github.com/Itsmmdoha/d0ppelganger/releases/download/v1.0.0/d0ppelganger-linux-exe) to download the latest binary.
+After downloading the file, give it executable permission by typing `chmod +x d0ppelganger-linux-exe` and type `./d0ppelganger-linux-exe` to run it!
+
+**Method 02:**
+Run it from source
 1. clone the repository
 ```bash
 git clone https://github.com/Itsmmdoha/d0ppelganger
