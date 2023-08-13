@@ -1,3 +1,4 @@
+from requests import get
 from assist import Doppelgang
 def banner():
     banner = """\033[92;1m
@@ -11,6 +12,11 @@ def banner():
     \033[0m"""
     print(banner)
 banner()
+
+try:
+    get("https://google.com")
+except:
+    exit("\033[91;1mGet an internet connection first; you morone!!!\033[0m")
 
 url = input("\033[93mEnter the url to be masked: ")
 mask = input("Enter a masking domain: ")
