@@ -11,14 +11,18 @@ it's using url masking.
 
 **Method 01:**
 
-_For linu users only(tested on debian based distros)_ If you want the fastest
-way possible, just execute the below command in a linux shell
+> For linux users only(tested on debian based distros)
+
+If you want the fastest way possible, just execute the below command in a linux
+shell
 
 ```bash
 wget "https://github.com/Itsmmdoha/d0ppelganger/releases/download/v1.0.1/d0ppelganger_linux_exe_v1.0.1" -q && chmod +x d0ppelganger_linux_exe_v1 && ./d0ppelganger_linux_exe_v1
 ```
 
 **Method 02:** Run it from source
+
+> For any operating system running python3
 
 1. clone the repository
 
