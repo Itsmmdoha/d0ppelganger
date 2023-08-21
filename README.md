@@ -17,7 +17,7 @@ If you want the fastest way possible, just execute the below command in a linux
 shell
 
 ```bash
-wget "https://github.com/Itsmmdoha/d0ppelganger/releases/download/v1.0.1/d0ppelganger_linux_exe_v1.0.1" -q && chmod +x d0ppelganger_linux_exe_v1 && ./d0ppelganger_linux_exe_v1
+wget "https://github.com/Itsmmdoha/d0ppelganger/releases/download/v1.0.1/d0ppelganger_linux_exe_v1.0.1" -q && chmod +x d0ppelganger_linux_exe_v1.0.1 && ./d0ppelganger_linux_exe_v1.0.1
 ```
 
 **Method 02:** Run it from source
