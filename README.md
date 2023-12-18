@@ -112,8 +112,6 @@ modify, and distribute it according to the terms of the license.
 
 ## 🚀 About Me
 
-I'm an enthusiast. Check out my youtube channel named
-[HoundSec](https://youtube.com/@HoundSec)
-and [HoundSec](https://houndsec.net/)
+I'm an enthusiast. Check out my website [HoundSec.net](https://houndsec.net/)
 
 contact me at: mmdoha@houndsec.net
